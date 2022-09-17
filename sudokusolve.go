@@ -83,14 +83,6 @@ func PrintSudoku(grid [][]int) {
 	}
 }
 
-func Which3x3(i int) int {
-	a := i / 3
-	if i%3 != 0 {
-		a += 1
-	}
-	return a
-}
-
 func FindNextEmpty(grid [][]int) (bool, int, int) {
 	for i := 0; i < 9; i++ {
 		for j := 0; j < 9; j++ {
