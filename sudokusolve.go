@@ -58,7 +58,7 @@ func BuildBase(input []string) (bool, [][]int) {
 			return false, grid
 		} else {
 			for j := 0; j < 9; j++ {
-				if 49 <= sl[j] && sl[j] <= '9' {
+				if 49 <= sl[j] && sl[j] <= 57 {
 					grid[i][j] = int(sl[j] - 48)
 				} else if sl[j] == '.' {
 					grid[i][j] = 0
