@@ -1,6 +1,6 @@
 # Sudoku Solver
 
-- Usage
+## Usage
 
 Input the sudoku one horizantal line at a time replace empty spots with "."
 
